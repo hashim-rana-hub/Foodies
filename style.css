@@ -1,0 +1,198 @@
+
+i {
+  padding: 10px;
+  color: #333;
+}
+
+.body {
+  padding: 0%;
+  margin: 0%;
+  font-family: cursive;
+}
+.navbar-brand {
+  font-family: fantasy;
+  font-size: 35px;
+}
+.nav-link {
+  font-size: 16px;
+  margin: 15px;
+  color: black !important;
+  font-family: "Times New Roman", Times, serif;
+}
+.nav-link:hover {
+  color: #333 !important;
+}
+.active .nav-link {
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .navhome {
+    padding-right: 50px;
+  }
+}
+.navbar-nav{
+background-color:transparent
+
+}
+.navbar {
+  text-align: center;
+}
+
+.container-fluid {
+  display: inline-block;
+}
+
+.menu-right-btn {
+  padding: 13px 46px;
+  background-color: transparent;
+  transition: all 300ms ease-in;
+}
+.menu-right-btn:hover {
+  color: #fff;
+}
+.site-content {
+  background-image: url("../website/crisp-2640743_1920.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+.site-title,
+.desc {
+  color: #333;
+  font-family: fantasy;
+}
+.site-title {
+  margin-top: 30%;
+  margin-bottom: 6%;
+  font-size: 50px;
+}
+.site-desc {
+  font-size: 14px;
+  margin-left: 15%;
+}
+.site-btn1 {
+  margin-left: 20%;
+  background-color: black;
+  color: white;
+}
+.site-btn2 {
+  background-color: black;
+  color: #fff;
+}
+.site-btn1,
+.site-btn2 {
+  margin-top: 5%;
+  margin-bottom: 40%;
+}
+.section1 .hding1 {
+  margin-top: 8%;
+}
+.section1 .hding2 {
+  font-size: 39px;
+  margin-bottom: 5%;
+}
+.section1 .p1 {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+.section1 {
+  margin-bottom: 8%;
+}
+.section2 .container-fluid {
+  background-image: url("../website/cocktails-3252160_1920.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 10%;
+}
+.section2 .hding1 {
+  margin-top: 20%;
+  margin-bottom: 4%;
+  font-family: cursive;
+  width: 80%;
+  color: white;
+}
+.section2.para1 {
+  width: 80%;
+  font-family: fantasy;
+  color: white;
+  margin-bottom: 7%;
+}
+.section2.btn {
+  margin-bottom: 15%;
+  width: 3%;
+  padding: 2%;
+  size: 3%;
+
+}
+.section3 {
+  padding-top: 5%;
+  text-align: center;
+  background-image: url("../website/overlay.png"), url(../website/burger.jpg);
+  background-attachment: fixed;
+  /* padding-bottom: 15%; */
+}
+.section5 h4 {
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  .section1 .card {
+    width: 14rem;
+  }
+  .card {
+    width: 20rem;
+    padding: 10px;
+    margin: 10px;
+  }
+  .section4 .col-md-7 img {
+    width: 350px;
+  }
+}
+/* .section5 .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+/* .section5.fa:hover {
+    opacity: 0.7;
+  }
+   */
+/* Set a specific color for each brand */
+
+/* Facebook */
+
+/* Twitter */
+/* .section5 .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } */
+*/ .section5.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2;
+  border-radius: 50%;
+}
+
+.section5 .fa:hover {
+  opacity: 0.7;
+}
+
+.sec {
+  color: white;
+  background-color: #333;
+}
+.section5{
+  padding: auto;
+  margin: auto;
+ }
+footer .section5 .h4{
+   margin-top: 5%;
+ }
