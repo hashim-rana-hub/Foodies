@@ -52,7 +52,7 @@ background-color:transparent
   color: #fff;
 }
 .site-content {
-  background-image: url("../website/crisp-2640743_1920.jpg");
+  background-image: url("images/crisp-2640743_1920.jpg");
   background-attachment: fixed;
   background-position: center;
 }
@@ -100,7 +100,7 @@ background-color:transparent
   margin-bottom: 8%;
 }
 .section2 .container-fluid {
-  background-image: url("../website/cocktails-3252160_1920.jpg");
+  background-image: url("images/cocktails-3252160_1920.jpg");
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 10%;
@@ -128,7 +128,7 @@ background-color:transparent
 .section3 {
   padding-top: 5%;
   text-align: center;
-  background-image: url("../website/overlay.png"), url(../website/burger.jpg);
+  background-image: url("images/overlay.png"), url(images/burger.jpg);
   background-attachment: fixed;
   /* padding-bottom: 15%; */
 }
@@ -192,7 +192,3 @@ background-color:transparent
 .section5{
   padding: auto;
   margin: auto;
- }
-footer .section5 .h4{
-   margin-top: 5%;
- }
